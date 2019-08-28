@@ -9,6 +9,7 @@ LOG_DIR = os.path.join(BASE_PATH, 'logs')
 
 CONF_DIR = os.path.join(BASE_PATH, 'confs')
 CONF_FILE_PATH = os.path.join(CONF_DIR, 'cases.conf')
+CONF_USER_FILE_PATH = os.path.join(CONF_DIR, 'users.conf')
 
 if os.path.exists(LOG_IMG):
     pass

@@ -41,5 +41,10 @@ class HandleConf:
 do_config = HandleConf(config.CONF_FILE_PATH)
 
 if __name__ == '__main__':
-
-    pass
+    do_config = HandleConf(config.CONF_FILE_PATH)
+    print(do_config.get_value('log', 'file_level'))
+    datas = {
+        'file_path': {'file_name': 'cases.xlsx', 'log_path': 'result.txt'},
+        'msg': {'success_msg': 'Pass', 'fail_msg': 'Fail'}
+    }
+    HandleConf.write_conf(datas, config.CONF_USER_FILE_PATH)
