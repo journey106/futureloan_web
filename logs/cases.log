@@ -1,0 +1,16 @@
+2019-08-28 12:53:05,405-[INFO]-[这是一个info级别的日志信息]-39-handle_log.py
+2019-08-28 12:53:05,405-[INFO]-[这是一个info级别的日志信息]-39-handle_log.py
+2019-08-28 12:53:05,405-[WARNING]-[这是一个warning级别的日志信息]-41-handle_log.py
+2019-08-28 12:53:05,405-[WARNING]-[这是一个warning级别的日志信息]-41-handle_log.py
+2019-08-28 12:53:05,405-[ERROR]-[这是一个error级别的日志信息]-42-handle_log.py
+2019-08-28 12:53:05,405-[ERROR]-[这是一个error级别的日志信息]-42-handle_log.py
+2019-08-28 12:53:05,405-[CRITICAL]-[这是一个警告级别的日志信息]-43-handle_log.py
+2019-08-28 12:53:05,405-[CRITICAL]-[这是一个警告级别的日志信息]-43-handle_log.py
+2019-08-28 14:58:08,800-[INFO]-[这是一个info级别的日志信息]-39-handle_log.py
+2019-08-28 14:58:08,800-[INFO]-[这是一个info级别的日志信息]-39-handle_log.py
+2019-08-28 14:58:08,800-[WARNING]-[这是一个warning级别的日志信息]-41-handle_log.py
+2019-08-28 14:58:08,800-[WARNING]-[这是一个warning级别的日志信息]-41-handle_log.py
+2019-08-28 14:58:08,800-[ERROR]-[这是一个error级别的日志信息]-42-handle_log.py
+2019-08-28 14:58:08,800-[ERROR]-[这是一个error级别的日志信息]-42-handle_log.py
+2019-08-28 14:58:08,800-[CRITICAL]-[这是一个警告级别的日志信息]-43-handle_log.py
+2019-08-28 14:58:08,800-[CRITICAL]-[这是一个警告级别的日志信息]-43-handle_log.py
