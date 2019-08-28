@@ -52,14 +52,16 @@ class TestInvest(unittest.TestCase):
         self.assertEqual(invest_page.invest_confirm_button.text, invest_data['msg'])
 
     @data(*invest_error_100_data)
-    def test_login_02_invalidate(self, user_info):
+    def test_invest_02_success(self, invest_data):
         """
         测试登录输入不合法
         :return:
         """
-        self.login_page.login(user_info[0], user_info[1])
-        invalidate_msg_element = self.login_page.get_invalidate_result()
-        self.assertEqual(invalidate_msg_element.text, user_info[2])
+
+        HomePage(self.driver).click_invest_button()
+        invest_page = InvestPage(self.driver)
+        invest_page.invest_input.send_keys(invest_data['amount'])
+        self.assertEqual(invest_page.invest_confirm_button.text, invest_data['msg'])
 
     def test_login_03_success(self):
         self.login_page.login('18684720553', 'python')
